@@ -17,7 +17,7 @@ Which statement is true about JavaScript?
 - [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
-- [ ] **E.** None of the above are true.
+- [x] **E.** None of the above are true.
 
 ### A.2. Turn `sum` to `2`.
 
@@ -33,7 +33,7 @@ answer.
 - [ ] **A.** `sum++`
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
-- [ ] **D.** All of the above
+- [x] **D.** All of the above
 - [ ] **E.** Some of the above
 
 ### A.3. What's the output?
@@ -45,7 +45,7 @@ const result = 1 < 100 || 'hello' === 'hi';
 console.log(result);
 ```
 
-- [ ] **A.** `true`
+- [x] **A.** `true`
 - [ ] **B.** `false`
 - [ ] **C.** `undefined`
 - [ ] **D.** N/A because the code has an error
@@ -64,7 +64,7 @@ if (word) {
 ```
 
 - [ ] **A.** `yay!`
-- [ ] **B.** `no :(`
+- [x] **B.** `no :(`
 - [ ] **C.** An empty line
 - [ ] **D.** N/A because the code has an error
 
@@ -74,7 +74,7 @@ The code below is incomplete. There's a blank space inside the `for` loop:
 
 ```js
 const fruits = ['apple', 'berry', 'cherry'];
-for (______) {
+for (_______) {
   console.log(fruit);
 }
 ```
@@ -87,7 +87,7 @@ berry
 cherry
 ```
 
-- [ ] **A.** `const fruit in fruits`
+- [x] **A.** `const fruit in fruits`
 - [ ] **B.** `const fruit of fruits`
 - [ ] **C.** `let fruit = 0; fruit < fruits.length; fruit++`
 - [ ] **D.** None of the above
@@ -104,7 +104,7 @@ function makeWordArray(phrase) {
 ```
 
 - [ ] **A.** Nothing happens because the program errors out.
-- [ ] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
+- [x] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
 - [ ] **C.** It defines a function called `makeWordArray` and outputs a word array.
 - [ ] **D.** It defines a function called `makeWordArray` but nothing else happens.
 
@@ -118,7 +118,7 @@ console.log'hi';
 // hi
 ```
 
-- [ ] **A.** The code causes an error because there should be parentheses around `'hi'`.
+- [x] **A.** The code causes an error because there should be parentheses around `'hi'`.
 - [ ] **B.** The code causes an error because `console.log` isn't a function.
 - [ ] **C.** The code causes an error because the code will run but it won't output anything.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -134,7 +134,7 @@ console.log(fruits[fruits.indexOf('apple')]);
 // apple
 ```
 
-- [ ] **A.** The code causes an error because `fruits[fruits.indexOf('apple')]` isn't valid
+- [x] **A.** The code causes an error because `fruits[fruits.indexOf('apple')]` isn't valid
   JavaScript syntax.
 - [ ] **B.** The code causes an error because `fruits.indexOf('apple')` doesn't return a valid
   index number.
@@ -159,7 +159,7 @@ for (const w of words) {
 - [ ] **A.** The code causes an error because `w` needs to be a `let` variable.
 - [ ] **B.** The code causes an error because `words` is an array and `toUpperCase()` isn't a
   valid array function.
-- [ ] **C.** The code causes an error because it will output `['JS', 'HTML', 'CSS']` three times.
+- [x] **C.** The code causes an error because it will output `['JS', 'HTML', 'CSS']` three times.
 - [ ] **D.** There is no error; the code generates the expected output.
 
 ### A.10. Identify the error
@@ -178,7 +178,7 @@ console.log(numStrings);
 ```
 
 - [ ] **A.** The code causes an error because `numStrings` needs to be a `let` variable.
-- [ ] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
+- [x] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
 - [ ] **C.** The code causes an error because `i++` isn't valid JavaScript syntax.
 - [ ] **D.** There is no error; the code generates the expected output.
 
@@ -210,7 +210,7 @@ outputArgs('hi', 'bye');
   of the expected output.
 - [ ] **C.** The code causes an error because the `a`, `b`, and `c` variables haven't been
   initialized.
-- [ ] **D.** There is no error; the code generates the expected output.
+- [x] **D.** There is no error; the code generates the expected output.
 
 ## B. Free response
 
@@ -225,13 +225,13 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+console.log is a function. It can also be used to call a function by adding parentheses (()) after it's name. Return statement ends function execution and specifies a value to be returned to the function caller.
 ```
 
 **_What's the difference between defining and calling a function?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+Defining a function is when a method is assigned to the function. Calling a function is when something invokes it, ex console.log(function).
 ```
 
 ### B.2. Describe these data types.
@@ -240,27 +240,22 @@ Write a short description of the following data types:
 
 **_String_**
 
-```
-REPLACE THIS WITH YOUR ANSWER
-```
+String is a datatype that is surrounded by quotations.
+It can be a word, number, sentence, etc. As long as it is surrounded by quotations. 
 
 **_Number_**
 
-```
-REPLACE THIS WITH YOUR ANSWER
-```
+Number is a datatype that can be positive or negative. A number can also be in the form of an integer(ex 1) or floating number(ex 1.25).
 
 **_Boolean_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+There are only two possible boolean values. They are true and false. They are used to execute code based on Conditional Logic. Conditional logic(or branching logic) is when a program executes different procedures depending on a specified condition. Conditional Logic can be implemented through boolean with the "if...else statement", as an example. Syntax also matters when implementing a boolean statement. Like the question above, JavaScript is case-sensitive. You can also compare one value with another and return a Boolean. (ex "Is X > 20?").
 ```
 
 **_Array_**
 
-```
-REPLACE THIS WITH YOUR ANSWER
-```
+Arrays can be String, Integer, Float, Boolean(true/false), Null, or Undefined. They can contain multiple items. Arrays can be manipulated as well. Wether it be adding a datatype to the beggining or end(.push, .pop), or removing a datatype at the beginning or end(.unshift, .shift). 
 
 ### B.3. Trace the value of `x`
 
@@ -282,7 +277,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 20
 ```
